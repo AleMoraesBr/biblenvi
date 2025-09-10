@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-export default function OnboardingScreen({ navigation }) {
+export default function OnboardingScreen({ onDone }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Bem-vindo à Metafitness</Text>
       <Text style={styles.subtitle}>Em 3 min configuramos seu plano.</Text>
-      <Button title="Começar" onPress={() => navigation.replace('Home')} />
+      <Button title="Começar" onPress={onDone} />
     </View>
   );
 }

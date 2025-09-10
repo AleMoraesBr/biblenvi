@@ -1,6 +1,6 @@
 # Metafitness App
 
-Protótipo inicial do aplicativo Metafitness usando React Native + Expo.
+Protótipo do aplicativo Metafitness usando React Native + Expo. Inclui navegação por abas, tela de onboarding com persistência e listas simples de treinos e receitas.
 
 ## Executar
 
@@ -9,4 +9,4 @@ npm install
 npm start
 ```
 
-O app possui telas de onboarding, home, treino, alimentação, progresso e perfil com dados de exemplo.
+Após iniciar, o app exibirá a tela de onboarding apenas na primeira execução. As telas principais ficam acessíveis pelas abas inferiores.
